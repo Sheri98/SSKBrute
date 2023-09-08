@@ -21,21 +21,23 @@
    cd SSKBrute
 
 ## Install the required packages:
-
-pip install -r requirements.txt
+```bash
+   pip install -r requirements.txt
 
 ## Make the script executable (Linux):
-chmod +x PersonalDir.py
+```bash
+   chmod +x PersonalDir.py
 
-# Usage
-python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
+## Usage
+```bash
+   python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
 
-Replace [BASE_URLS_FILE] with your list of base URLs and [ENDPOINTS_FILE] with your list of endpoints to test.
+   Replace [BASE_URLS_FILE] with your list of base URLs and [ENDPOINTS_FILE] with your list of endpoints to test.
 
-For example:
-python3 PersonalDir.py base_urls.txt endpoints.txt
+   For example:
+   python3 PersonalDir.py base_urls.txt endpoints.txt
 
-Output
+##Output
 
 The tool offers a continuous display of the URLs being processed and will prominently display any discovered directories with their corresponding status codes. Additionally, all results are persistently stored to a log file.
 
