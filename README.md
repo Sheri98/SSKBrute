@@ -20,10 +20,6 @@
    git clone https://github.com/YourUsername/SSKBrute.git
    cd SSKBrute
 
-**Install the required packages**:
-```bash
-   pip install -r requirements.txt
-
 ## Make the script executable (Linux):
 ```bash
    chmod +x PersonalDir.py
