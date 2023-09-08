@@ -1,41 +1,61 @@
 # SSKBrute: Web Directory Discovery Tool
 
-`ShBrute` is a custom web directory discovery tool. Its purpose is to uncover potential web directories by iterating through a list of provided base URLs and potential endpoints.
+![Badge indicating Python 3.x compatibility](https://img.shields.io/badge/python-3.x-blue.svg)
 
-## Features
+`SSKBrute` is an efficient and user-friendly web directory discovery tool. Its primary function is to identify potential web directories by iterating through a set of given base URLs combined with potential endpoints.
 
-- **Multi-threaded scanning**: Leveraging concurrent processing for faster results.
-- **Clear and concise output**: Designed for easy reading and interpretation.
-- **Automatic logging**: Captures all processed URLs, complete with their status codes, for subsequent analysis.
+---
 
-## Prerequisites
+## 🌟 Features
+
+- 🚀 **Multi-threaded Scanning**: Harness the power of concurrent processing for accelerated results.
+- 📘 **Intuitive Output**: Crafted for straightforward reading and comprehension.
+- 📂 **Automatic Logging**: Seamlessly logs every processed URL along with its corresponding status code.
+
+---
+
+## 📋 Prerequisites
 
 - Python 3.x
-- `requests` library
+- The `requests` library
 
-## Installation
+---
 
- **Clone the repository**:
+## 🛠 Installation
+
+1. **Clone the Repository**:
+```bash
+git clone https://github.com/YourUsername/SSKBrute.git
+cd SSKBrute
+
+
+chmod +x PersonalDir.py
+
+    Make the Script Executable (For Linux Users):
+
 bash
-   git clone https://github.com/YourUsername/SSKBrute.git
-   cd SSKBrute
+
+chmod +x PersonalDir.py
+
+🚀 Usage
 
 bash
-   chmod +x PersonalDir.py
 
-## Usage
+python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
+
+Substitute [BASE_URLS_FILE] with your collection of base URLs and [ENDPOINTS_FILE] with your assortment of endpoints.
+
+Example:
+
 bash
-   python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
 
-   Replace [BASE_URLS_FILE] with your list of base URLs and [ENDPOINTS_FILE] with your list of endpoints to test.
+python3 PersonalDir.py base_urls.txt endpoints.txt
 
-   For example:
-   python3 PersonalDir.py base_urls.txt endpoints.txt
+📄 Output
 
-## Output
+SSKBrute continuously updates you on the URLs being processed. It highlights any directories discovered and pairs them with their respective status codes. What's more, all the findings are conveniently saved to a log file for in-depth analysis.
+⚠️ Warning
 
-The tool offers a continuous display of the URLs being processed and will prominently display any discovered directories with their corresponding status codes. Additionally, all results are persistently stored to a log file.
+🔴 Caution: If you're inputting a vast list of base URLs and endpoints, be prepared for a significantly large log file. Always keep track of your storage while using the tool.
 
-## ⚠️ Warning
 
-Please be cautious when using this tool, as it can generate a large log file depending on the number of base URLs and endpoints provided.
