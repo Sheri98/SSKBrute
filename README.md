@@ -15,12 +15,12 @@
 
 ## Installation
 
-1. **Clone the repository**:
+ **Clone the repository**:
    ```bash
    git clone https://github.com/YourUsername/SSKBrute.git
    cd SSKBrute
 
-## Install the required packages:
+**Install the required packages**:
 ```bash
    pip install -r requirements.txt
 
@@ -29,7 +29,7 @@
    chmod +x PersonalDir.py
 
 ## Usage
-```bash
+bash
    python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
 
    Replace [BASE_URLS_FILE] with your list of base URLs and [ENDPOINTS_FILE] with your list of endpoints to test.
@@ -37,7 +37,7 @@
    For example:
    python3 PersonalDir.py base_urls.txt endpoints.txt
 
-##Output
+## Output
 
 The tool offers a continuous display of the URLs being processed and will prominently display any discovered directories with their corresponding status codes. Additionally, all results are persistently stored to a log file.
 
