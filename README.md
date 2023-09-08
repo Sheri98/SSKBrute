@@ -25,7 +25,7 @@
    chmod +x PersonalDir.py
 
 ## Usage
-bash
+```bash
    python3 PersonalDir.py [BASE_URLS_FILE] [ENDPOINTS_FILE]
 
    Replace [BASE_URLS_FILE] with your list of base URLs and [ENDPOINTS_FILE] with your list of endpoints to test.
